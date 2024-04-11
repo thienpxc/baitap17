@@ -20,11 +20,11 @@ public class Exercise14 {
             res += numbers[i];
         }
         System.out.println("Trung binh cong cua mang la: " + res/len);
-        } catch (Exception e) {
-            if (e instanceof NumberFormatException) {
+        } catch (Exception a) {
+            if (a instanceof NumberFormatException) {
                 System.out.println("Nhap vao phai la so nguyen");
             } else {
-                System.out.println(e.getMessage());
+                System.out.println(a.getMessage());
             }
         }
     }

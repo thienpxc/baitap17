@@ -1,3 +1,5 @@
+package bt15;
+
 import java.util.Scanner;
 
 public class Exercise15 {
